@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Viagens</title>
+  <style>
+    ul {
+      list-style-type: none;
+    }
+    li {
+      padding: 5px 0;
+    }
+    li::before {
+      content: "\2022";
+      color: #007bff;
+      display: inline-block;
+      width: 1em;
+      margin-left: -1em;
+    }
+  </style>
+</head>
+<body>
+  <ul>
+    <li>Paris, França</li>
+    <li>Rio de Janeiro, Brasil</li>
+    <li>Barcelona, Espanha</li>
+  </ul>
+  <p>Explore o mundo e descubra novos destinos de viagem!</p>
+</body>
+</html>
